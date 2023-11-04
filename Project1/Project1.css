@@ -1,0 +1,126 @@
+body{
+    border: solid 1px black;
+    background-color: beige;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    
+}
+
+body header nav{
+    background-color: orange;
+}
+
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    padding: 10px 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+header nav ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+
+#top{
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+img{
+    width: 500px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+
+#footer{
+    width: auto;
+    background-color: grey;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+@media only screen and (max-width:425px){
+
+
+    body{
+    background-color: chocolate;  
+    }
+    header nav ul{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+/* 2nd flex card html */
+
+body2{
+    
+    
+    background-color:white;
+    margin: auto;
+    
+}
+
+
+contact body{
+    
+    background-color: antiquewhite;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+
+
+}
+
+.flexcard2 p{
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+p{
+    padding: 10px;
+}
+
+
+
+/* contact html */
+
+contact-html body{
+    
+    background-color: orange;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    
+}
+contact main{
+
+    display: flex;
+    justify-content: space-around;
+    
+}
